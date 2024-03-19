@@ -1,0 +1,66 @@
+/* job-vacancy.css */
+
+.job-vacancy-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #dadada;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .filters input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .job-vacancy-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .job-vacancy-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-vacancy-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: larger;
+  }
+  
+  /* Adjust padding and font sizes for smaller screens */
+  @media (max-width: 768px) {
+    .job-vacancy-page {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .job-vacancy-item {
+      padding: 10px;
+    }
+  
+    .job-vacancy-item h2 {
+      font-size: 1.25rem;
+    }
+  
+    .job-vacancy-item p {
+      font-size: 0.9rem;
+    }
+  }
+  

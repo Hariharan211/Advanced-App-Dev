@@ -1,0 +1,137 @@
+/* home.css */
+
+/* Home Container */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #54cee1;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.feature i {
+  font-size: 2rem;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Button */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* jobfairinfo.css */
+
+/* Styles for the additional content section */
+.additional-content {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.additional-content h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #007BFF; /* Change the heading color as needed */
+}
+
+.additional-content p {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #333; /* Change the text color as needed */
+}
+
+.additional-content ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #333; /* Change the list item color as needed */
+}
+
+.additional-content li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .additional-content {
+    padding: 15px;
+  }
+  
+  .additional-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .additional-content p {
+    font-size: 0.9rem;
+  }
+}
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  transition: width 0.3s;
+  top: 0; /* Align the sidebar to the top of the page */
+  left: 0; /* Align the sidebar to the left of the page */
+}
