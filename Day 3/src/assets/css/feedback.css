@@ -1,0 +1,81 @@
+/* Add your CSS here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-right: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  /* Navbar Styles */
+  /* Add styles for your Navbar here */
+  
+  /* Sidebar Styles */
+  /* Add styles for your Sidebar here */
+  
+  /* Container Styles */
+  .feedback-container {
+    background-color: #fff;
+    margin-top: 0%;
+    width: 90%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Feedback Form Styles */
+  #contact-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .form-outline {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Status Styles */
+  .status {
+    margin-top: 1rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 767px) {
+    .col-md-3 {
+      display: none; /* Hide the sidebar on small screens */
+    }
+    
+    .col-md-9 {
+      width: 100%; /* Expand the main content to full width on small screens */
+    }
+  }
+  

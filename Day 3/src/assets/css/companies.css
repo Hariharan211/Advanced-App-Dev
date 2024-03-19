@@ -1,0 +1,46 @@
+/* companies.css */
+
+.companies-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #dadada;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .companies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style for each company card */
+  .company-card {
+    width: calc(33.33% - 20px); /* Adjust for responsive design */
+    margin-bottom: 20px;
+    border: 1px solid #213ae0;
+    padding: 20px;
+    text-align: center;
+    color: rgb(10, 7, 7);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.926);
+  }
+  
+  .company-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #020303; /* Change the link text color to a visible color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  
+    color: #04090e; /* Change the hover text color to a visible color */
+  }
