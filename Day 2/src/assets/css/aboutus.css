@@ -1,0 +1,156 @@
+/* about-us.css */
+
+/* Styles for the entire About Us page */
+.about-us-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #dadada;
+}
+
+/* Heading styles */
+.about-us-page h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-us-page h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.project-details p1 {
+  font-size: 1.2rem;
+  margin: 10px 10;
+  text-align: left;
+}
+.our-team p{
+  text-align: left;
+}
+/* Contact info styles */
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 10px 10;
+ text-align: left;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+/* Social media links styles */
+.social-media .social-icons {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  
+}
+
+.social-media .social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media .social-icons a {
+  font-size: 1.5rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.social-media .social-icons a:hover {
+  color: #0056b3;
+}
+
+/* Project details styles */
+.project-details p {
+  font-size: 1rem;
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Feedback form styles */
+.feedback-form {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.feedback-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.feedback-form button {
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-submitted {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #007BFF;
+}
+
+/* Adjust padding and font sizes for smaller screens */
+@media (max-width: 768px) {
+  /* Mobile responsive styles here */
+  .about-us-page {
+    padding: 10px;
+  }
+
+  /* Adjust font size for headings on smaller screens */
+  .about-us-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .about-us-page h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  /* Adjust font size for contact info and social media links */
+  .contact-info p,
+  .social-media .social-icons a {
+    font-size: 0.9rem;
+  }
+
+  /* Adjust font size for project details */
+  .project-details p {
+    font-size: 0.9rem;
+  }
+
+  /* Adjust font size for feedback form elements */
+  .feedback-form h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  .feedback-form textarea {
+    font-size: 1rem;
+  }
+}

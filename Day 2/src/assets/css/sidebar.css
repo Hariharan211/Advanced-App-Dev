@@ -1,0 +1,42 @@
+/* Default styles for the sidebar */
+.sidebar {
+  width: 100px;
+  background-color: #000000;
+  color: rgb(247, 244, 244);
+  padding: 20px;
+  float: left;
+  height: 95vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(249, 247, 247);
+  font-size: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%; /* Expand to full width */
+      height: auto; /* Allow content to determine height */
+      text-align: center; /* Center-align content */
+      padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  li {
+      margin-bottom: 5px; /* Reduce margin between list items */
+  }
+}
