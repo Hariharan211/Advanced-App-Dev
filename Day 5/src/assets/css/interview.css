@@ -1,0 +1,70 @@
+/* interview.css */
+
+/* Styles for the entire interview page */
+.interview-page {
+    padding: 20px;
+    text-align: left;
+    background-color: #dadada;
+  }
+
+  .interview-page a{
+    color: rgb(107, 136, 239);
+  }
+  
+  /* Heading styles */
+  .interview-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .interview-page h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Content styles */
+  .interview-page p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  /* List styles */
+  
+  /* CSS to change the color of links */
+  .content a {
+    color: #03080e; /* Change to your desired color */
+    text-decoration: none;
+  }
+  /* CSS for link hover state (optional) */
+  a:hover {
+    color: #0056b3; /* Change to your desired hover color */
+    text-decoration: underline; /* Add underline on hover (optional) */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    /* Mobile responsive styles here */
+    .interview-page {
+      padding: 10px;
+    }
+  
+    .interview-page h1 {
+      font-size: 1.5rem;
+    }
+  
+    .interview-page h2 {
+      font-size: 1.25rem;
+      margin-top: 20px;
+    }
+  
+    .interview-page p {
+      font-size: 0.9rem;
+    }
+  
+    .interview-page ul {
+      margin-left: 15px;
+      font-size: 0.9rem;
+    }
+  }
+  

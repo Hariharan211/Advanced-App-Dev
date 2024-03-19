@@ -1,0 +1,76 @@
+
+.navbar {
+  background-color: #54cee1;
+  overflow: hidden;
+ 
+  
+}
+
+.navbar-heading h1 {
+  position: absolute;
+  color: rgb(2, 14, 26);
+  font-size: 1.5rem;
+  font-style: oblique;
+  display: flex;
+  margin-left: 1300px; /* You might want to change this value */
+  margin-top: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: -5px;
+  padding-top: 1%;
+}
+
+.navbar li {
+  float: left;
+  padding-left: 0%;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+ 
+}
+
+.actions {
+  display: flex;
+  
+
+}
+
+.nav-welcome {
+  /* margin-top: 0; */
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: #f8f0f0;
+  margin-left: 600px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+  .navbar-heading h1 {
+      margin-left: 0; /* Remove margin on small screens */
+      text-align: center; /* Center the heading */
+  }
+
+  .navbar ul {
+      text-align: center; /* Center the navigation links */
+  }
+
+  .navbar li {
+      float: none; /* Remove floating for list items */
+      display: inline-block; /* Display list items inline */
+      margin-right: 20px; /* Add some spacing between list items */
+  }
+}
