@@ -1,0 +1,50 @@
+/* login.css */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: rgb(111, 195, 231); */
+  /* background-color: #e8f1f4; */
+  
+  background-color: #dadada;
+  
+}
+
+form {
+  
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 80px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  width: 300px;
+  
+  
+
+}
+
+.name,
+.Password,
+label {
+  display: flexbox;
+  margin-bottom: 10px;
+  
+}
+
+
+input[type="name"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.p
+{
+  padding: 5%;
+}
+
+/* Add more styles as needed */
